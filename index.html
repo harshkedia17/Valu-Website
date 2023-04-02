@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <nav>
+        <a href=""><img src="Icons/VALU LOGO V.png" alt="" id="logo" /></a>
+
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">Features <i class="fa-solid fa-chevron-down"></i> </button>
+                <div class="dropdown-content">
+                    <a href="#track">Track</a>
+                    <a href="#analyze">Analyze</a>
+                    <a href="#insights">Insights</a>
+                </div>
+            </div>
+            <a href="#about">About Us</a>
+            <a href="#team">Our Team</a>
+        </div>
+
+        <div class="nav_menu_btn"><button onclick="window.open('https://tally.so/r/mVp6DM','_blank')"
+                id="bottone1"><a>Get Started</a></button></div>
+
+        <section class="menu">
+            <a href="javascript:void(0);" onclick="myFunction()"><img class="menu_img" src="Icons/menu.png" alt=""></a>
+            <div class="menu_navbar" id="myLinks">
+                <div>
+                    <div class="bg_menu_co"><a href="#about">About Us</a></div>
+                    <div class="bg_menu_co menu_dropdown">
+                        <a ref="javascript:void(0);" onclick="myFunction_menu()" class="menu_dropbtn">Features <i
+                                class="fa-solid fa-chevron-down"></i> </a>
+                        <div class="menu_dropdown-content" id="menu_links">
+                            <a href="#track">Track</a>
+                            <a href="#analyze">Analyze</a>
+                            <a href="#insights">Insights</a>
+                        </div>
+                    </div>
+                    <div class="bg_menu_co"><a href="#team">Our Team</a></div>
+                </div>
+
+            </div>
+        </section>
+    </nav>
+    <div class="shadow_only"></div>
+
+
+    <section class="hero">
+        <div class="left">
+            <h1>Create value with
+                <div class="valu"><span class="stroke">VALU</span></div>
+            </h1>
+            <p>
+                Transform your financial future with Valu’s cutting-edge investment
+                tracking and analysis features.
+            </p>
+            <a href="https://tally.so/r/mVp6DM" target="_blank" rel="noopener noreferrer"><button
+                    class="cssbuttons-io-button">Join the Waitlist
+                    <div class="icon">
+                        <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </button></a>
+            <h3 id="slogan">Optimise. Invest. Prosper</h3>
+        </div>
+
+        <div class="right">
+            <div class="circle_shadow">
+            </div>
+            <video class="vid" id="vid" src="Icons/hero-vid.mp4" type="video/mp4" autoplay="" muted="" playsinline=""
+                alt="Video not found"></video>
+        </div>
+
+    </section>
+    <div class="bottom_shadow_hero"></div>
+    <section id="about" class="about_us">
+        <div class="wrapper">
+            <h1 class="about_heading">Know About <span class="stroke valu">VALU</span></h1>
+            <div class="container scrollx">
+                <svg viewBox="0 0 900 10" fill="white" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.89998 6C9.43671 8.28224 7.41896 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0C7.41896 0 9.43671 1.71776 9.89998 4H445.1C445.563 1.71776 447.581 0 450 0C452.419 0 454.437 1.71776 454.9 4H890.1C890.563 1.71776 892.581 0 895 0C897.761 0 900 2.23858 900 5C900 7.76142 897.761 10 895 10C892.581 10 890.563 8.28224 890.1 6H454.9C454.437 8.28224 452.419 10 450 10C447.581 10 445.563 8.28224 445.1 6H9.89998Z"
+                        fill="#D9D9D9" />
+                    <mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="900"
+                        height="10">
+                        <path
+                            d="M9.89998 6C9.43671 8.28224 7.41896 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0C7.41896 0 9.43671 1.71776 9.89998 4H445.1C445.563 1.71776 447.581 0 450 0C452.419 0 454.437 1.71776 454.9 4H890.1C890.563 1.71776 892.581 0 895 0C897.761 0 900 2.23858 900 5C900 7.76142 897.761 10 895 10C892.581 10 890.563 8.28224 890.1 6H454.9C454.437 8.28224 452.419 10 450 10C447.581 10 445.563 8.28224 445.1 6H9.89998Z"
+                            fill="#D9D9D9" />
+                    </mask>
+                    <g mask="url(#mask0_0_1)">
+                        <rect class="mask" y="-49" height="99" fill="grey" />
+                    </g>
+                </svg>
+                <section class="sec1 pin">
+                    <h1>Signify Elegance</h3>
+
+                        <div class="col">
+                            <p>Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Sit
+                                praesent
+                                arcu leo lectus pellentesque. Ornare elit orci morbi volutpat. Ut fermentum lorem morbi
+                                quis
+                                risus amet urna. Urna egestas lorem.</p>
+                        </div>
+                </section>
+                <section class="sec2 pin">
+                    <h1 class="anim">Signify Elegance</h1>
+
+                    <div class="col anim">
+                        <p>Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Sit
+                            praesent
+                            arcu leo lectus pellentesque. Ornare elit orci morbi volutpat. Ut fermentum lorem morbi quis
+                            risus amet urna. Urna egestas lorem.</p>
+                    </div>
+                </section>
+                <section class="sec3 pin">
+                    <h1 class="anim">Signify Elegance</h1>
+
+                    <div class="col anim">
+                        <p>Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Sit
+                            praesent
+                            arcu leo lectus pellentesque. Ornare elit orci morbi volutpat. Ut fermentum lorem morbi quis
+                            risus amet urna. Urna egestas lorem.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+
+        <div class="features" id="features_track">
+            <div class="content track_sc">
+                <h3>Track <span class="stroke">Assests</span></h3>
+                <p class="desc">Track it, Optimize it, Control it</p>
+                <a href="#track" class="for_big_s"><button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Learn More</span>
+                    </button></a>
+            </div>
+            <img src="images/track1.png" class="track-img">
+
+            <!-- for small screen-->
+            <a href="#track" class="for_small_s"><button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Learn More</span>
+                </button></a>
+        </div>
+
+        <div class="features" id="features_analysis">
+            <img src="images/analysis1.png" class="analysis-img">
+            <div class="content analysis_sc">
+                <h3>Analyze <span class="stroke">Assests</span></h3>
+                <p class="desc-analysis">Leave nothing to Chance, Analyze everything</p>
+                <a href="#analyze" class="for_big_s"><button class="learn-more analyze">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Learn More</span>
+                    </button></a>
+            </div>
+            <!-- for small screen-->
+            <a href="#track" class="for_small_s"><button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Learn More</span>
+                </button></a>
+        </div>
+
+        <div class="features" id="features_insights">
+            <div class="content insight_sc">
+                <h3>Get <span class="stroke">Insights</span></h3>
+                <p class="desc">Informed Decisions. Maximized Returns</p>
+                <a href="#insights" class="for_big_s"><button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Learn More</span>
+                    </button></a>
+            </div>
+            <img src="images/insights1.png" class="insights-img">
+            <!-- for small screen-->
+            <a href="#track" class="for_small_s"><button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Learn More</span>
+                </button></a>
+        </div>
+    </section>
+
+    <section id="track" class="sub-track sub">
+
+        <div class="top">
+            <h1>Track</h1>
+            <p>Track it, optimize it, control it.</p>
+        </div>
+        <div class="bottom">
+            <div class=" card grid-col-span2 t1">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/exotic investments.png" alt="" class="card-img">
+                    <p class="card-desc one_line">Exotic Investments</p>
+                </div>
+            </div>
+
+            <div class=" card grid-col-span2 t2">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/real estate.png" alt="" class="card-img">
+                    <p class="card-desc one_line">Real EState</p>
+                </div>
+            </div>
+
+            <div class=" card grid-col-span2 t3">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/Web3.png" alt="" class="card-img">
+                    <p class="card-desc two_line">Web 3.0 exchanges and market places</p>
+                </div>
+            </div>
+
+            <div class=" card grid-col-span2 t4">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/bank.png" alt="" class="card-img">
+                    <p class="card-desc two_line">Banks/Broker based investments</p>
+                </div>
+            </div>
+
+            <div class=" card grid-col-span2 t5">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/gov support.png" alt="" class="card-img">
+                    <p class="card-desc two_line">Govt. support saving scehemes</p>
+                </div>
+            </div>
+
+            <div class=" card grid-col-span2 t6">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/startups.png" alt="" class="card-img">
+                    <p class="card-desc ">Startups/SMEs via sweat equity</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="analyze" class="sub-analytics sub">
+        <div class="top">
+            <h1>Analysis</h1>
+            <p>Leave nothing to chance, analyse everything.</p>
+        </div>
+        <div class="bottom">
+            <div class=" card grid-col-span2 a1 a">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/dividends.png" alt="" class="card-img">
+                    <p class="card-desc one_line">Dividend tracking</p>
+                </div>
+            </div>
+
+            <div class=" card grid-col-span2 a2 a">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/sector.png" alt="" class="card-img">
+                    <p class="card-desc one_line">Sector allocation</p>
+                </div>
+            </div>
+
+            <div class=" card grid-col-span2 a3 a">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/fee scanner.png" alt="" class="card-img">
+                    <p class="card-desc one_line">Fees Scanner</p>
+                </div>
+            </div>
+            <div class=" card grid-col-span2 a4 a">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/geographical.png" alt="" class="card-img">
+                    <p class="card-desc two_line">Geographical allocation</p>
+                </div>
+            </div>
+
+            <div class=" card grid-col-span2 a5 a">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/IRR.png" alt="" class="card-img">
+                    <p class="card-desc one_line">IRR Calculator</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="insights" class="sub-insights sub">
+        <div class="top">
+            <h1>Insights</h1>
+            <p>Informed Decisions. Maximized Returns.</p>
+        </div>
+        <div class="bottom">
+            <div class=" card grid-col-span2 i1 i">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/port projection.png" alt="" class="card-img">
+                    <p class="card-desc two_line">Portfolio Performance & Projection</p>
+                </div>
+            </div>
+
+            <div class=" card grid-col-span2 i2 i">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/portfolio opt.png" alt="" class="card-img">
+                    <p class="card-desc one_line">Portfolio Optimization</p>
+                </div>
+            </div>
+
+            <div class=" card grid-col-span2 i3 i">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/port projection.png" alt="" class="card-img">
+                    <p class="card-desc two_line">Performance vs benchmark comparison</p>
+                </div>
+            </div>
+
+            <div class=" card grid-col-span2 i4 i">
+                <div class="card-border"></div>
+                <div class="card-container">
+                    <img src="Icons/anti inflation.png" alt="" class="card-img">
+                    <p class="card-desc two_line">Anti-inflation optimization</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="ot_foooter">
+        <!--------------------------- OUR TEAM -------------------------------->
+        <section class="our_team" id="team">
+            <div class="wrap">
+                <h1 class="title">Our <span class="stroke">Team</span> </h1>
+                <div class="our_team_section">
+                    <div class="content">
+                        <div class="accordion">
+                            <ul class="accordion__list">
+
+                                <li class="accordion__item active" data-id="1">
+                                    <h3 class="accordion__header">
+                                        <span class="accordion__b1">
+                                            <span class="accordion__b1-line"></span>
+                                            <span class="accordion__b1-line"></span>
+                                        </span>
+                                        <span class="accordion__title">Sounak Senapati</span>
+                                    </h3>
+                                    <div class="accordion__body">
+                                        <p class="accordion__descript">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aspernatur,
+                                            esse
+                                            fugit alias quisquam quasi.
+                                        </p>
+                                        <img id="s_img_1" src="images/1540875030780.jpeg" alt="1" class="accord__img_s">
+                                    </div>
+
+                                </li>
+
+                                <li class="accordion__item" data-id="2">
+                                    <h3 class="accordion__header">
+                                        <span class="accordion__b1">
+                                            <span class="accordion__b1-line"></span>
+                                            <span class="accordion__b1-line"></span>
+                                        </span>
+                                        <span class="accordion__title">Suchita Sarangi</span>
+                                    </h3>
+                                    <div class="accordion__body">
+                                        <p class="accordion__descript">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aspernatur,
+                                            esse
+                                            fugit
+                                            alias quisquam quasi.
+                                        </p>
+                                        <img id="s_img_1" src="images/1540875030780.jpeg" alt="1" class="accord__img_s">
+                                    </div>
+                                </li>
+
+                                <li class="accordion__item" data-id="3">
+                                    <h3 class="accordion__header">
+                                        <span class="accordion__b1">
+                                            <span class="accordion__b1-line"></span>
+                                            <span class="accordion__b1-line"></span>
+                                        </span>
+                                        <span class="accordion__title">Harsh Kedia</span>
+                                    </h3>
+                                    <div class="accordion__body">
+                                        <p class="accordion__descript">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aspernatur,
+                                            esse
+                                            fugit
+                                            alias quisquam quasi.
+                                        </p>
+                                        <img id="s_img_1" src="images/1540875030780.jpeg" alt="1" class="accord__img_s">
+                                    </div>
+                                </li>
+                                <li class="accordion__item" data-id="4">
+                                    <h3 class="accordion__header">
+                                        <span class="accordion__b1">
+                                            <span class="accordion__b1-line"></span>
+                                            <span class="accordion__b1-line"></span>
+                                        </span>
+                                        <span class="accordion__title">Keshav Madhav</span>
+                                    </h3>
+                                    <div class="accordion__body">
+                                        <p class="accordion__descript">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aspernatur,
+                                            esse
+                                            fugit
+                                            alias quisquam quasi.
+                                        </p>
+                                        <img id="s_img_1" src="images/1540875030780.jpeg" alt="1" class="accord__img_s">
+                                    </div>
+                                </li>
+                                <li class="accordion__item" data-id="5">
+                                    <h3 class="accordion__header">
+                                        <span class="accordion__b1">
+                                            <span class="accordion__b1-line"></span>
+                                            <span class="accordion__b1-line"></span>
+                                        </span>
+                                        <span class="accordion__title">Yashvi Singh</span>
+                                    </h3>
+                                    <div class="accordion__body">
+                                        <p class="accordion__descript">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aspernatur,
+                                            esse
+                                            fugit
+                                            alias quisquam quasi.
+                                        </p>
+                                        <img id="s_img_1" src="images/1540875030780.jpeg" alt="1" class="accord__img_s">
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion__img">
+                        <img id="1-img" src="images/1540875030780.jpeg" alt="1" class="accord__img active">
+                        <img id="2-img" src="images/1540875030780.jpeg" alt="2" class="accord__img">
+                        <img id="3-img" src="images/1540875030780.jpeg" alt="3" class="accord__img">
+                        <img id="4-img" src="images/analysis1.png" alt="1" class="accord__img ">
+                        <img id="5-img" src="images/insights1.png" alt="2" class="accord__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------- FOOTER ----------->
+        <section class="footer_page">
+            <div class="fin_btn">
+                <button class="final">
+                    <span>Button</span><i></i>
+                </button>
+            </div>
+            <div class="footer_content">Take action today, build your wealth</div>
+            <div class="footer_img">
+                <a href="#"><img class="twitter footer_link" src="images/twitter.png" alt=""></a>
+                <a href="#"><img class="insta footer_link" src="images/instagram.png" alt=""></a>
+                <a href="#"><img class="linkedin footer_link" src="images/linkedin.png" alt=""></a>
+                <a href="#"><img class="insta footer_link" src="images/gmail.png" alt=""></a>
+                <a href="#"><img class="linkedin footer_link" src="images/whatsapp.png" alt=""></a>
+            </div>
+            <div class="footer_end">Terms & Conditions</div>
+        </section>
+    </section>
+
+    <span class="cursor">
+        <span class="cursor__dot"></span>
+    </span>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="javascript/script.js"></script>
+
+</body>
+
+</html>
